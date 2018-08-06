@@ -2,7 +2,7 @@
 
 This is a blog which use IPFS
 
-# quick start
+# Quick start
 
 
 # Document

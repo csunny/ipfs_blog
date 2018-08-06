@@ -5,8 +5,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Magic's Blog</title>
+    <link rel="stylesheet" href="/ipfs/QmXz9iHzoiGUGSkTwtNG5X95H8C59ftGJpPrLzFHAPXWMW/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/ipfs/QmXz9iHzoiGUGSkTwtNG5X95H8C59ftGJpPrLzFHAPXWMW/bootstrap-slider.min.css"/>
+    <link rel="stylesheet" href="/ipfs/QmXz9iHzoiGUGSkTwtNG5X95H8C59ftGJpPrLzFHAPXWMW/bootstrapValidator.cs"/>
+    <link rel="stylesheet" href="/ipfs/QmXz9iHzoiGUGSkTwtNG5X95H8C59ftGJpPrLzFHAPXWMW/animate.css"/>
+    <link rel="stylesheet" href="/ipfs/QmXz9iHzoiGUGSkTwtNG5X95H8C59ftGJpPrLzFHAPXWMW/card.css"/>
+    <link rel="shortcut icon" href="/ipfs/QmSjRJJGWqrVULVvrzwec4BQdwUZXdycES5w8ChY6Rb47T/design.svg" type="image/x-icon" size="16*16">
 </head>
 <body>
+    <!--导航-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!--小屏幕导航按钮和logo-->
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">首页</a>
+            </div>
+            <!--小屏幕导航按钮和logo-->
+
+            <!--导航-->
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#article">文章</a></li>
+                    <li><a href="#archive">归档</a></li>
+                    <li><a href="#about">关于</a></li>
+                    <li><a href="#contact">联系</a></li>
+                </ul>
+            </div>
+            <!--导航-->
+        </div>
+    </nav>
+    <!--导航-->
+
+    <section id="article">
+        <div class="container">
+          <div class="col-md-8">
+            <div>
+                <h3><a href="https://xiaozhuanlan.com/topic/6538274091">Python 比特币公链技术架构介绍</a></h3>
+                <div>
+                    区块链技术已经引起了大家的广泛关注，本文中主要介绍利用python语言实现比特币公链，此篇文章讲解整个技术架构。
+                    <br/>
+                    <span class="postmeta_author" style="border:blue">Magic</span>
+                    <span class="postmeta_category" style="border:blue"><a href="" rel="category">区块链</a></span>
+                    <span class="postmeta_time" style="border:blue">2018-8-7</span>
+                </div>
+            </div>
+              
+            <div>
+                <h3><a href="https://xiaozhuanlan.com/topic/6258031479">分布式系统——RPC通信&gRPC</a></h3>
+                <div>
+                    在前面的章节中，我们讲解了如何实现一条公链。 当然，仅凭前面的实现，我们的代码离上生产环境还有很长的路要走。
+                    我这里为了让知识点更加集中，也为了能让大家了解到更多的内容，我把分布式系统相关的内容单独拿出来，放到后面来讲。
+                    在承接前面内容的同时，也适当为后续内容做铺垫。
+                    <br/>
+                    <span class="postmeta_author" style="border:blue">Magic</span>
+                    <span class="postmeta_category"><a href="" rel="category" style="border: blue">区块链</a></span>
+                    <span class="postmeta_time" style="border:blue">2018-8-7</span>
+                </div>
+                
+            </div>
+
+            <div>
+                <h3><a href="https://xiaozhuanlan.com/topic/6258031479">实现一条基于 POS (权益证明)的链</a></h3>
+                <div>
+                    在比特币公链架构解析中，就曾提到过为了实现去中介化的设计，比特币设计了一套共识协议，并通过此协议来保证系统的稳定性和防攻击性。
+                    并且我们知道，截止目前使用最广泛，也是最被大家接受的共识算法，是我们先前介绍过的POW(proof of work)工作量证明算法。
+                    目前市值排名前二的比特币和以太坊也是采用的此算法。
+                    <br/>
+                    <span class="postmeta_author" style="border:blue" >Magic</span>
+                    <span class="postmeta_category"><a href="" rel="category" style="border:blue" >区块链</a></span>
+                    <span class="postmeta_time" style="border:blue" >2018-8-7</span>
+                </div>
+            </div>
+          </div><!-- /.col-lg-6 -->
+          <div col-md-4>
+            <h4>近期最佳</h4>
+            <div>
+                <h5><a href="https://xiaozhuanlan.com/topic/6258031479">实现一条基于 POS (权益证明)的链</a></h5>
+                <img src="/ipfs/QmSjRJJGWqrVULVvrzwec4BQdwUZXdycES5w8ChY6Rb47T/design.svg" alt="">
+            </div>
+          </div>
+        </div><!-- /.row -->
+    </section>
+
+    <section id="archive">
+        <div class="container">
+            <div class="row wow fadeInUp" data-wow-duration="0.5s">
+                <img src="/ipfs/QmSjRJJGWqrVULVvrzwec4BQdwUZXdycES5w8ChY6Rb47T/php.jpg" alt="" srcset="" size="256*256">
+            </div>
+        </div>
+    </section>
+
+   <section id="about">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="0.5s">
+            <h4>
+                这是一个用IPFS开发的博客系统。本博客代码已经开源，开源地址: <a href="http://https://github.com/csunny/ipfs_blog">源码</a>
+                同时对于区块链底层技术感兴趣的同学可以关注 <a href="http://https://xiaozhuanlan.com/eosio">我的专栏</a> 
+            </h4>
+        </div>
+    </div>
+</section>
     
+<!--contact-->
+<section id="contact">
+    <div class="lvjing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  wow fadeInLeft">
+                    <h2>
+                        <span class="glyphicon glyphicon-send"></span>
+                        联系我们
+                    </h2>
+                    <p>
+                        IPFS 星际文件系统......
+                    </p>
+                    <address>
+                        <p>
+                            <span class="glyphicon glyphicon-home"></span>
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-phone-alt"></span>
+                            联系电话：xxx-xxxx-xxxx
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            邮箱:cfscsunny@gmail.com
+                        </p>
+                    </address>
+                </div>
+                <div class="col-md-6  wow fadeInRight">
+                    <form method="POST" id="comment_info" role="form">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id='uname' placeholder="您的姓名"/>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" id="uemail" placeholder="您的邮箱"/>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" id="utitle" placeholder="标题"/>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea class="form-control" placeholder="留言内容" id="ucontent" rows="4"></textarea>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="submit" class="form-control" value="提交"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact-->
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Copyright&nbsp;©&nbsp;2018-2020&nbsp;&nbsp;xxx@magic  版权所有 -沪ICP备xxxxxxxxx
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/ipfs/QmRUxmWGwk9SsER1TJZEtQhoi1sqWYJ4dCZq3H2raFVB5C/jquery.singlePageNav.min.js"></script>
+<script src="/ipfs/QmRUxmWGwk9SsER1TJZEtQhoi1sqWYJ4dCZq3H2raFVB5C/wow.min.js"></script>
+<script src="/ipfs/QmRUxmWGwk9SsER1TJZEtQhoi1sqWYJ4dCZq3H2raFVB5C/bootstrap.min.js"></script>
+<script src="/ipfs/QmRUxmWGwk9SsER1TJZEtQhoi1sqWYJ4dCZq3H2raFVB5C/card.js"></script>
+<script src="/ipfs/QmRUxmWGwk9SsER1TJZEtQhoi1sqWYJ4dCZq3H2raFVB5C/bootstrapValidator.js"></script>
 </body>
 </html>
