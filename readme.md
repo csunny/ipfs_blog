@@ -19,7 +19,7 @@ ipfs add -r ipfs_blog
 ipfs daemon
 ```
 
-## 预览  
+## 预览  
 ```
 http://localhost:8080/ipfs/QmbstVVrYr6baRjuKQzJqx34GPjNagrSXCM9HDTRvZSS7g
 ```
@@ -30,4 +30,4 @@ http://localhost:8080/ipfs/QmbstVVrYr6baRjuKQzJqx34GPjNagrSXCM9HDTRvZSS7g
 # License
 
 # Contribute
-欢迎Fork代码，提交pull request贡献代码 
+欢迎Fork代码，提交pull request贡献代码 
